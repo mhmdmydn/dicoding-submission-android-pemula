@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_detail_top"
+            style="@style/CardViewStyle">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img_detail_photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/imageview_height_300dp"
+                    tools:src="@drawable/ic_android_10" />
+
+                <TextView
+                    android:id="@+id/tv_detail_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/margin_8dp"
+                    android:layout_marginBottom="@dimen/margin_8dp"
+                    android:background="@color/bg_tv_android_name"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/margin_8dp"
+                    android:text="@string/android_name" />
+            </FrameLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_below="@+id/cv_detail_top"
+            style="@style/CardViewStyle">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_16dp">
+
+                <TextView
+                    style="@style/TextPrimary"
+                    android:text="@string/feature"
+                    android:layout_marginBottom="@dimen/margin_4dp" />
+
+                <TextView
+                    android:id="@+id/tv_detail_feature"
+                    style="@style/TextSecondary"
+                    android:text="@string/dummy_content"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</ScrollView>

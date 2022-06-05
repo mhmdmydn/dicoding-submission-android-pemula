@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DicodingSubmission</string>
+    <string name="icon_splash_description">ICON SPLASH</string>
+    <string name="android_name">Nama Android</string>
+    <string name="detail">Detail</string>
+    <string name="menu_about_title">About</string>
+    <string name="dummy_content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem excepturi, aut est facere non quo dolores eius
+    deleniti sunt, exercitationem sequi laboriosam aliquam ea. Quae dolorum molestiae quos at est vitae assumenda
+    veritatis incidunt, mollitia, tenetur totam nihil, et repellat quaerat! Omnis corrupti neque autem animi molestias
+    hic vitae excepturi, temporibus ipsum rem. Adipisci, voluptas tenetur temporibus repellat et vitae enim hic incidunt
+    magni a. Minima ad omnis quae ullam quas? Odio, provident atque exercitationem tempore cupiditate blanditiis
+    accusamus. Optio suscipit ratione quia tempore officiis, voluptatem maxime, in tempora veritatis asperiores, culpa
+    et ad iste dolorum distinctio aperiam? Error hic deleniti eaque mollitia, accusantium aperiam autem optio quae vel,
+    laudantium delectus nam magnam tempora! Placeat consequuntur illum repudiandae facilis provident debitis reiciendis.
+    Voluptates animi fuga rerum maxime sit sequi facere quibusdam pariatur nostrum, praesentium magni odit ullam
+    laboriosam saepe beatae placeat consectetur similique explicabo non nihil adipisci aliquam molestiae? Saepe.</string>
+    <string name="feature">Feature</string>
+    <string name="my_name">Muhammad Mayudin</string>
+    <string name="my_email">muhammadmayudin12@gmail.com</string>
+</resources>
